@@ -186,9 +186,11 @@ footer {
   color: #D5DDE9;
   border-radius: 5px;
 }
+
 .about_section {
   height: 80%;
 }
+
 .contact_section {
   height: 80%;
 }
@@ -230,8 +232,15 @@ footer {
     justify-content: center;
     width: 85%;
   }
-}
 
+  .about_section {
+    height: 98%;
+  }
+
+  .contact_section {
+    height: 98%;
+  }
+}
 
 @media(max-width:800px) {
   nav {
@@ -270,9 +279,24 @@ footer {
     justify-content: center;
     width: 85%;
   }
+
+  .projects_img {
+    margin: auto;
+    width: 75%;
+  }
+
+  .about_section {
+    height: 88%;
+  }
+
+  .contact_section {
+    height: 88%;
+  }
+
+  .projects_section {
+    height: 88%;
+  }
 }
-
-
 
 @media(max-width:500px) {
   nav {
@@ -312,10 +336,19 @@ footer {
     justify-content: center;
     width: 85%;
   }
+
+  .projects_img {
+    margin: auto;
+    width: 75%;
+  }
+
   a.bottom_link {
-    padding: 3px;
-    width: 28%;
+    text-align: center;
+    padding: 15px 5px 5px 5px;
+    height: 40px;
+    width: 128px;
     justify-content: center;
+    align-items: center;
     align-self: center;
   }
 }
