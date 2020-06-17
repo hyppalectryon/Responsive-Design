@@ -186,6 +186,12 @@ footer {
   color: #D5DDE9;
   border-radius: 5px;
 }
+.about_section {
+  height: 80%;
+}
+.contact_section {
+  height: 80%;
+}
 
 @media(max-width:1179px) {
   nav {
@@ -305,5 +311,11 @@ footer {
     display: flex;
     justify-content: center;
     width: 85%;
+  }
+  a.bottom_link {
+    padding: 3px;
+    width: 28%;
+    justify-content: center;
+    align-self: center;
   }
 }
